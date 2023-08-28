@@ -10,7 +10,7 @@ def recursion(alphabet, word, length=0):
         recursion(alphabet, word, length + 1)
 
 
-t = randint(1, 7)  # numer of letters in word
+t = randint(1, 7)  # number of letters in word
 
 alphabets = ['a', 'b', 'c', 'd']
 words = [0 for j in range(t)]
